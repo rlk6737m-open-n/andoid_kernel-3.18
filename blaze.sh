@@ -26,7 +26,7 @@ mkdir -p outdir
 #toolchain , custom build_user , custom build_host , arch
 export ARCH=arm64
 export ARCH_MTK_PLATFORM=mt6735
-export CROSS_COMPILE=$PWD/tools/toolchain/bin/aarch64-linux-android-
+export CROSS_COMPILE=$PWD/tools/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 export KBUILD_BUILD_USER="Nasreirma™"
 export KBUILD_BUILD_HOST="Deepin-OS"
 
